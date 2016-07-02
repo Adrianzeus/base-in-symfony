@@ -1,0 +1,4 @@
+av:
+    resource: "@AvBundle/Controller/"
+    type:     annotation
+    prefix:   /

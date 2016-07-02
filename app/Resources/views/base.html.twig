@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        
+        <!-- Bootstrap -->    
+         <link rel="stylesheet" type="text/css" href="/resources/bootstrap/css/bootstrap.css">
+        
+    </head>
+    <body>
+    
+    <div class="container">
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </div>
+
+    </body>
+</html>
